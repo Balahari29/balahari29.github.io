@@ -12,9 +12,10 @@ styles.css     colour tokens in :root, mobile-first layout (from 360 px up)
 main.js        hero canvas (signal + 1,878-star galaxy), SVG charts, recruiter view, nav menu
 assets/
   Bala_Hariharan_Resume.pdf
+  og.png       1200x630 link-preview image (Open Graph / Twitter), a render of the hero
 .nojekyll      tells GitHub Pages to serve the files as they are (no Jekyll processing)
 ```
-Fonts come from Google Fonts (Unbounded, IBM Plex Sans, IBM Plex Mono). There are no images: charts are inline SVG
+Fonts come from Google Fonts (Unbounded, IBM Plex Sans, IBM Plex Mono). The only image is the link preview `assets/og.png`: charts are inline SVG
 drawn from the data arrays at the top of `main.js`, and the hero is drawn on a `<canvas>`.
 
 ## Preview locally
